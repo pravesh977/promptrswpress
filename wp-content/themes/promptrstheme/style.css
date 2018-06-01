@@ -6,6 +6,223 @@ Author URI: https://wordpress.org/
 Description: Custom theme for Prompt Refrigerator Service
 */
 
+/* ********************* MOBILE STYLINGS BEGIN**************** */
+
 body {
-    background: yellow;
+  box-sizing: border-box;
+  background: rgb(240, 240, 240);
+  font-family: "Rozha One", serif;
+  font-size: 22px;
 }
+.topbrandimage {
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+.navbar-toggler {
+  margin: 0 auto;
+}
+.firstnavul li a {
+    text-align: center;
+}
+.parallaldiv {
+    background-image: url("images/tools-864983_1920.jpg");
+    background-position: center;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .crellyslider {
+    min-height: 70vh !important;
+    }
+  .crellyslider ul li {
+  height: 100% !important;
+  }
+  .centerdiv {
+    padding: 5%;
+    text-align: center;
+  }
+  footer {
+    background: grey;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wpcf7-form p label {
+    font-size: 24px;
+    background: grey;
+  }
+/* ********************* MOBILE STYLINGS END**************** */
+
+/* ********************* Tablet STYLINGS BEGIN**************** */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(240, 240, 240);
+    font-size: 24px;
+  }
+}
+/* ********************* Tablet STYLINGS END**************** */
+
+/* ********************* Desktop STYLINGS BEGIN**************** */
+@media only screen and (min-width: 992px) {
+  body {
+    background: rgb(240, 240, 240);
+    font-size: 24px;
+  }
+  .servicemain {
+      text-align: center;
+      margin-top: 5%;
+  }
+  .navbar-nav li a {
+      color:white !important;
+  }
+  .navbar-nav li a:hover{
+      background: black;
+      color: white !important;
+      padding: -5px;
+  }
+  .crellyslider {
+      min-height: 80vh !important;
+  }
+  .crellyslider ul li {
+    height: 100% !important;
+  }
+  .navbar {
+    font-size: 24px;
+    /* margin: -10px 0px -10px 0px; */
+    color: white;
+  }
+  .navbar-brand {
+      font-size: 30px;
+      color:white !important;
+  }
+  .navbar-brand img {
+      width: 300px;
+      height: 80px;
+  }
+  .centerdiv {
+    padding: 5%;
+    text-align: center;
+    font-size: 24px;
+  }
+  .parallalimage {
+  }
+  .parallaldiv {
+    background-image: url("images/tools-864983_1920.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /* footer {
+    background: grey;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  } */
+  footer .fab,
+  .fas {
+    margin: 1% 0px 1% 0px;
+    /* width: 40%; */
+  }
+  footer .fas a {
+    color: white;
+  }
+  footer .fab:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: 0.5s;
+    border-radius: 10%;
+  }
+  footer .fas a:hover {
+    color: black;
+    background: white;
+    transition: 0.5s;
+  }
+  /* .caption-wrap .caption {
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    } */
+  .mainslideshowdiv p {
+    font-size: 40px;
+  }
+  .contactformdiv {
+    text-align: center;
+    background-image: url("images/envelope-3413133_1920.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .topbrandimage {
+      margin: 0 auto;
+      display: block;
+      height: 100px;
+      width: 100px;
+  }
+  .servicesdiv {
+    margin: 2% 0px 0px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border-top: 2px black solid;
+    border-bottom: 2px black solid; */
+  }
+  .singleservice {
+      width: 45%;
+      height: auto;
+      /* background: red; */
+      text-align: center;
+      margin-top: 2%;
+      border-top: 2px black solid;
+  }
+  .servicetitle {
+      font-size: 28px;
+  }
+  .singleservice img {
+      border: 10px solid black;
+      width: 100%;
+      height: 500px;
+      transition: 0.2s;
+      opacity: 0.7;
+      border-radius: 10px;
+  }
+  .singleservice img:hover {
+      transform: scale(1.2);
+      opacity: 1;
+  }
+  .servicedetails {
+      font-style: italic;
+  }
+  .mainslideshowdiv a {
+      position: absolute;
+      bottom: 10%;
+      left: 40%;
+      background: #53A451;
+      border-radius: 5%;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      transition: 0.5s;
+  }
+  .mainslideshowdiv a:hover {
+    background: #00CA6F;
+  }
+}
+
+/* ********************* Desktop STYLINGS END**************** */

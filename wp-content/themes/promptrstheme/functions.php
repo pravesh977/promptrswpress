@@ -7,6 +7,7 @@
     function addingStyleSheet() {
         wp_enqueue_style('resetfile', get_template_directory_uri(). '/css/reset.css');
         wp_enqueue_style('bootstrapfile', get_template_directory_uri(). '/css/bootstrap.css');
+        wp_enqueue_style('fontawesome', get_template_directory_uri(). '/css/fontawesome-all.css');
         wp_enqueue_style('style', get_stylesheet_uri());
     }
 
