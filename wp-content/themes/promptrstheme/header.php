@@ -4,7 +4,7 @@
     <meta charset="<?php bloginfo('charset');?>">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?php bloginfo('name');?></title>
-    <link href="https://fonts.googleapis.com/css?family=Candal|Poller+One|Rozha+One" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">    
     <?php wp_head();?>
   </head>
   <body <?php body_class(); ?>>
@@ -12,7 +12,7 @@
     <nav class="navbar navbar-expand-md navbar-light" style="background-color: #262626">
         <a class="navbar-brand" href="<?php echo home_url();?>"> <?php bloginfo('name');?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-chevron-circle-down"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <?php

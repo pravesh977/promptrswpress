@@ -11,52 +11,159 @@ Description: Custom theme for Prompt Refrigerator Service
 body {
   box-sizing: border-box;
   background: rgb(240, 240, 240);
-  font-family: "Rozha One", serif;
-  font-size: 22px;
+  font-family: "Bitter", serif;
+  font-size: 18px;
 }
 .topbrandimage {
-    height: 30%;
-    width: 30%;
-    margin: 0 auto;
-    display: block;
+  height: 30%;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
 }
 .navbar-toggler {
   margin: 0 auto;
 }
 .firstnavul li a {
-    text-align: center;
+  text-align: center;
 }
 .parallaldiv {
-    background-image: url("images/tools-864983_1920.jpg");
-    background-position: center;
-    height: 30vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  .crellyslider {
-    min-height: 70vh !important;
-    }
-  .crellyslider ul li {
-  height: 100% !important;
-  }
-  .centerdiv {
-    padding: 5%;
-    text-align: center;
-  }
-  footer {
+  background-image: url("images/tools-864983_1920.jpg");
+  background-position: center;
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parallaldiv div {
     background: grey;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.crellyslider {
+  min-height: 70vh !important;
+}
+.crellyslider ul li {
+  height: 100% !important;
+}
+.centerdiv {
+  padding: 5%;
+  text-align: center;
+}
+footer {
+    background: #4C4C4D;
+}
+footer div {
+  padding: 2% 0px 2% 0px;
+}
+footer div div {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerlogo {
+  display: none;
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+}
+footer p a {
+    color: black;
+}
+.wpcf7-form p label {
+  font-size: 24px;
+  background: grey;
+}
+.mainslideshowdiv a {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    background: #53a451;
+    border-radius: 5%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .mainslideshowdiv a:hover {
+    background: #00ca6f;
+  }
+  .navbar-nav li a {
+    color: white !important;
+    font-size: 20px;
+  }
+  .navbar-nav li a:hover {
+    background: black;
+    color: white !important;
+    padding: -5px;
+  }
+  .navbar {
+    font-size: 14px;
+    /* margin: -10px 0px -10px 0px; */
+    color: white;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    color: white !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .navbar .navbar-toggler .fas {
     color: white;
     font-size: 24px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
   }
-  .wpcf7-form p label {
+  .parallaldiv {
+    min-height: 500px;
+  }
+  footer div .fab,
+  .fas {
+    margin: 5% 0px 5% 0px;
+    /* width: 40%; */
+  }
+  .repairlogo {
+    height: 150px;
+    width: 150px;
+    margin: 2% auto 2%;
+    display: block;
+  }
+  .repairlogodiv {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+  }
+  .repairlogodiv p {
     font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  .centerdiv p:first-child {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  footer .fas a {
+    color: white;
+  }
+  .crellyslider .cs-slides li div {
+  }
+  .crellyslider .cs-slides li div strong span {
+    font-size: 24px !important;
+    line-height: 100px;
     background: grey;
+    opacity: 0.8;
+    color: white;
+  }
+  .crellyslider .cs-slides li div strong {
   }
 /* ********************* MOBILE STYLINGS END**************** */
 
@@ -78,40 +185,27 @@ body {
     font-size: 24px;
   }
   .servicemain {
-      text-align: center;
-      margin-top: 5%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 32px;
   }
-  .navbar-nav li a {
-      color:white !important;
-  }
-  .navbar-nav li a:hover{
-      background: black;
-      color: white !important;
-      padding: -5px;
-  }
+  
   .crellyslider {
-      min-height: 80vh !important;
+    min-height: 80vh !important;
   }
   .crellyslider ul li {
     height: 100% !important;
   }
-  .navbar {
-    font-size: 24px;
-    /* margin: -10px 0px -10px 0px; */
-    color: white;
-  }
-  .navbar-brand {
-      font-size: 30px;
-      color:white !important;
-  }
-  .navbar-brand img {
-      width: 300px;
-      height: 80px;
-  }
+ 
+ 
   .centerdiv {
     padding: 5%;
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+  }
+  .centerdiv p:first-child {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
   }
   .parallalimage {
   }
@@ -133,11 +227,12 @@ body {
     justify-content: space-between;
     align-items: center;
   } */
-  footer .fab,
+  footer div:first-child .fab,
   .fas {
-    margin: 1% 0px 1% 0px;
+    margin: 5% 0px 5% 0px;
     /* width: 40%; */
   }
+
   footer .fas a {
     color: white;
   }
@@ -170,59 +265,124 @@ body {
     background-attachment: fixed;
   }
   .topbrandimage {
-      margin: 0 auto;
-      display: block;
-      height: 100px;
-      width: 100px;
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+    width: 100px;
   }
   .servicesdiv {
     margin: 2% 0px 0px 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* border-top: 2px black solid;
     border-bottom: 2px black solid; */
   }
   .singleservice {
-      width: 45%;
-      height: auto;
-      /* background: red; */
-      text-align: center;
-      margin-top: 2%;
-      border-top: 2px black solid;
+    width: 40%;
+    height: auto;
+    background: #ffffff;
+    text-align: center;
+    margin-top: 2%;
+    border: 1px solid black;
+    border-radius: 10px;
   }
   .servicetitle {
-      font-size: 28px;
+    font-size: 28px;
   }
   .singleservice img {
-      border: 10px solid black;
-      width: 100%;
-      height: 500px;
-      transition: 0.2s;
-      opacity: 0.7;
-      border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    /* transition: 0.2s;
+    opacity: 0.7; */
   }
-  .singleservice img:hover {
-      transform: scale(1.2);
-      opacity: 1;
-  }
+  /* .singleservice img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  } */
   .servicedetails {
-      font-style: italic;
+    font-style: italic;
+    font-size: 18px;
   }
-  .mainslideshowdiv a {
-      position: absolute;
-      bottom: 10%;
-      left: 40%;
-      background: #53A451;
-      border-radius: 5%;
-      padding: 10px;
-      color: white;
-      text-decoration: none;
-      transition: 0.5s;
+  .navbar {
+    font-size: 24px;
+
   }
-  .mainslideshowdiv a:hover {
-    background: #00CA6F;
+  .navbar-brand {
+    font-size: 30px;
   }
+  .aboutdetails {
+      width: 90%;
+      text-align: center;
+      background: #ffffff;
+      margin: 2% auto 2%;
+      border-radius: 20px;
+  }
+  .aboutmaindiv {
+      display: flex;
+      width: 90%;
+      margin: 2% auto 2%;
+      justify-content: center;
+      /* align-items: stretch; */
+      /* overflow: scroll; */
+      max-height: 500px;
+  }
+  .aboutmaindiv div {
+    background: #0289A9;
+    border-top: 1px solid black;
+  }
+  .aboutmaindiv img {
+    max-width: 100%;
+    height: 100%;
+  }
+.aboutmaindiv div:nth-child(1) {
+    width: 60%;
+}
+.aboutmaindiv div:nth-child(2) {
+    width: 40%;
+    overflow: scroll;
+}
+  .aboutmaindiv div ul li {
+      text-align: justify;
+      padding: 0px 10px 0px 10px;
+      list-style-type: circle;
+      list-style-position: inside;
+      margin: 50px 0px 5px 0px;
+  }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer div div {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footerlogo {
+    height: 150px;
+    width: 350px;
+    display: flex;
+  }
+  footer p {
+      text-align: center;
+      font-size: 18px;
+      margin: 0px;
+  }
+  .crellyslider .cs-slides li div strong span {
+    font-size: 42px !important;
+    line-height: 80px;
+    text-align: center;
+    background: grey;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  
 }
 
 /* ********************* Desktop STYLINGS END**************** */
