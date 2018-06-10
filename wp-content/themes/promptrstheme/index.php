@@ -22,7 +22,4 @@
     <img src="<?php bloginfo('template_directory')?>/images/repairlogo.png" class="repairlogo">
     <p>Serving and satisfying NYC since 1999</p>
 </div>
-<!-- <div class="centerdiv">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis praesentium totam libero cumque, illum dolor aperiam temporibus eos incidunt. Laborum officiis mollitia maiores magni culpa delectus ab illum molestias atque.Voluptatum recusandae, earum, quos</p>
-</div> -->
 <?php get_footer(); ?>

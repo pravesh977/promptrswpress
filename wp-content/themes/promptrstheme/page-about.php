@@ -1,7 +1,7 @@
 <?php get_header();?>
 <div class="aboutmaindiv">
     <div>
-        <img src="<?php bloginfo('template_directory');?>/images/plumber-228010_1920.jpg">
+        <img src="<?php bloginfo('template_directory');?>/images/plumber-228010_1920.jpg" class="img-fluid">
     </div>
     <div>
         <ul>
@@ -17,5 +17,5 @@
     <p>Our customers range from residential houses to corporate buildings... Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit eius ut fugiat pariatur aliquid eligendi quod blanditiis, perspiciatis possimus odio! Quia aliquam ducimus placeat, vero quam eaque corrupti consequuntur?</p>
 </div>
 <h1>Gallery</h1>
-
+<?php echo do_shortcode('[foogallery id="93"]')?>
 <?php get_footer();?>
